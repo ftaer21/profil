@@ -1,50 +1,146 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Saya</title>
-    <style>
-        body{
-            margin:0;
-            font-family:Arial,sans-serif;
-            background:linear-gradient(135deg,#4facfe,#00f2fe);
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            height:100vh;
-            color:white;
-        }
-        .card{
-            background:rgba(255,255,255,.15);
-            backdrop-filter:blur(10px);
-            padding:40px;
-            border-radius:20px;
-            text-align:center;
-            box-shadow:0 10px 30px rgba(0,0,0,.3);
-        }
-        h1{margin:0;font-size:40px;}
-        p{font-size:18px;}
-        button{
-            padding:12px 25px;
-            border:none;
-            border-radius:10px;
-            cursor:pointer;
-            font-size:16px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio Premium</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="card">
-    <h1>Halo 👋</h1>
-    <p>Selamat datang di website saya.</p>
-    <p>Website ini dibuat menggunakan GitHub Pages.</p>
-
-    <button onclick="alert('Terima kasih sudah berkunjung!')">
-        Klik Saya
-    </button>
+<div class="loader">
+<div class="spinner"></div>
+<h2>Loading...</h2>
 </div>
+
+<header>
+
+<nav>
+
+<div class="logo">
+EZA
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#portfolio">Portfolio</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero" id="home">
+
+<div class="glass">
+
+<h1>HELLO</h1>
+
+<h2>I'm EZA</h2>
+
+<p>
+Welcome to my premium portfolio website.
+</p>
+
+<a href="#about" class="btn">
+Explore
+</a>
+
+</div>
+
+</section>
+
+</header>
+
+<section id="about">
+
+<h1>About Me</h1>
+
+<p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed ut perspiciatis unde omnis iste natus error.
+
+</p>
+
+</section>
+
+<section id="skills">
+
+<h1>My Skills</h1>
+
+<div class="cards">
+
+<div class="card">
+HTML
+</div>
+
+<div class="card">
+CSS
+</div>
+
+<div class="card">
+JavaScript
+</div>
+
+<div class="card">
+UI Design
+</div>
+
+</div>
+
+</section>
+
+<section id="portfolio">
+
+<h1>Portfolio</h1>
+
+<div class="gallery">
+
+<div class="project">
+Project 1
+</div>
+
+<div class="project">
+Project 2
+</div>
+
+<div class="project">
+Project 3
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h1>Contact</h1>
+
+<p>Email : you@example.com</p>
+
+<p>Instagram : @username</p>
+
+<p>WhatsApp : +62xxxxxxxx</p>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
